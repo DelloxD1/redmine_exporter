@@ -1,0 +1,31 @@
+# Redmine configuration section
+redmine:
+  # URL of the Redmine instance
+  url: https://foo.bar
+
+  # Redmine API version
+  version: 4.2.1
+
+  # Redmine username (leave empty if using API token)
+  username:
+
+  # Redmine password (leave empty if using API token)
+  password:
+
+  # Redmine API token for authentication
+  token: abcdefghijklmnopqrstuvwxyz
+
+  # Number of days to consider for the 'last_days' calculations
+  get_last_timedelta_days: 7
+
+# List of Redmine projects to monitor
+projects:
+  - project-1
+  - project-2
+  - project-3
+
+# List of Redmine users to monitor
+users:
+  - user1
+  - user2
+  - user3
