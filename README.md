@@ -1,6 +1,8 @@
 # Overview
 This Python script is designed to interact with Redmine, a project management application, and generate a summary of project issues. It uses the Redmine API to retrieve and process data, and outputs the results in a prometheus metrics format. The script is designed to be flexible and configurable, allowing users to specify various parameters such as the Redmine URL, version, username, password, token, and the number of days to consider when fetching data.
 
+### **It's designed be used in combination with the Textfile Collector of the node_exporter!** 
+
 # Dependencies
 The script requires the following Python libraries:
 
